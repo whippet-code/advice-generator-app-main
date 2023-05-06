@@ -1,0 +1,32 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 60vw;
+  background-color: darkslategray;
+}
+
+#advice {
+  font-size: 2rem;
+  color: white;
+  margin: 1rem;
+}
+
+#adviceID {
+  font-size: 1.5rem;
+  color: white;
+  margin: 1rem;
+}
+
+#button {
+  width: 2.2rem;
+  height: 2.2rem;
+  border-radius: 50%;
+}
+
+#dice {
+  width: 2rem;
+  height: 2rem;
+  margin: 0.5rem;
+}
