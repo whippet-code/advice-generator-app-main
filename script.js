@@ -1,8 +1,8 @@
-const getAdvice = () => {
+const getAdvice = async () => {
   console.log("clicked");
   const adviceID = document.getElementById("adviceID");
   const advice = document.getElementById("advice");
-  const newAdvice = fetchAdvice();
+  const newAdvice = await fetchAdvice();
 
   adviceID.innerText = newAdvice.id;
   advice.innerText = newAdvice.advice;
@@ -11,6 +11,5 @@ const getAdvice = () => {
 const fetchAdvice = async () => {
   const response = await fetch("https://api.adviceslip.com/advice");
   const data = await response.json();
-  console.log(data.slip);
-  return data;
+  return data.slip;
 };
