@@ -1,32 +1,74 @@
+html {
+  background-color: hsl(217, 19%, 24%);
+  font-weight: 800;
+  font-family: 'Manrope', sans-serif;
+}
+
+@media screen and (max-width: 375px) {
+  .container {
+    width: 95vw;
+  }
+
+  #divider {
+    background-image: url(../images/bg-pattern-mobile.svg);
+  }
+}
+
+@media screen and (min-width: 376px) {
+  .container {
+    width: 33vw;
+  }
+
+  #divider {
+    background-image: url(../images/bg-pattern-desktop.svg);
+  }
+}
 .container {
+  margin: 3rem auto;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  width: 60vw;
-  background-color: darkslategray;
+  background-color: hsl(217, 19%, 38%);
+  border-radius: 1rem;
 }
 
 #advice {
-  font-size: 2rem;
+  padding: 1rem 0;
+  font-size: 28px;
   color: white;
   margin: 1rem;
+  text-align: center;
+  width: 90%;
 }
 
 #adviceID {
-  font-size: 1.5rem;
+  padding-top: 1rem;
+  font-size: 1rem;
+  text-transform: uppercase;
   color: white;
   margin: 1rem;
+  color: hsl(150, 100%, 66%);
+}
+
+#divider {
+  width: 90%;
+  height: 1px;
+  background-color:hsl(193, 38%, 86%);
+  margin: 1rem 0;
 }
 
 #button {
-  width: 2.2rem;
-  height: 2.2rem;
+  width: 3rem;
+  height: 3rem;
+  background-color: hsl(150, 100%, 66%);
   border-radius: 50%;
+  position: relative;
+  bottom: -1.5rem;
 }
 
 #dice {
-  width: 2rem;
-  height: 2rem;
-  margin: 0.5rem;
+  width: 1.5rem;
+  height: 1.5rem;
+  margin: 0.75rem;
 }

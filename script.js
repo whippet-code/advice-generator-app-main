@@ -4,7 +4,7 @@ const getAdvice = async () => {
   const advice = document.getElementById("advice");
   const newAdvice = await fetchAdvice();
 
-  adviceID.innerText = newAdvice.id;
+  adviceID.innerText = "Advice #" + newAdvice.id;
   advice.innerText = newAdvice.advice;
 };
 
