@@ -9,8 +9,8 @@ html {
     width: 95vw;
   }
 
-  #divider {
-    background-image: url(../images/bg-pattern-mobile.svg);
+  #dividerimage {
+    background-image: url(./images/pattern-divider-mobile.svg);
   }
 }
 
@@ -19,8 +19,8 @@ html {
     width: 33vw;
   }
 
-  #divider {
-    background-image: url(../images/bg-pattern-desktop.svg);
+  #dividerimage {
+    background-image: url(./images/pattern-divider-desktop.svg);
   }
 }
 .container {
@@ -49,6 +49,16 @@ html {
   color: white;
   margin: 1rem;
   color: hsl(150, 100%, 66%);
+}
+
+#dividerimage {
+  width: 1.5rem;
+  height: 1.5rem;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+  bottom: -1.75rem;
+  background-color: hsl(217, 19%, 38%);
 }
 
 #divider {
