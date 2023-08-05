@@ -1,6 +1,6 @@
 # Frontend Mentor - Advice generator app
 
-[Live app](https://whippet-code.github.io/advice-generator-app-main/)
+## [Click for live app](https://whippet-code.github.io/advice-generator-app-main/)
 
 ![Design preview for the Advice generator app coding challenge](./design/desktop-preview.jpg)
 
